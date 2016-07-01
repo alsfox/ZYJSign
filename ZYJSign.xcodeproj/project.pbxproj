@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D9E0BF871D26951C00B3B1AF /* ZYJSign.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E0BF861D26951C00B3B1AF /* ZYJSign.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9E0BF921D26955C00B3B1AF /* ZYJModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E0BF901D26955C00B3B1AF /* ZYJModel.h */; };
+		D9E0BF921D26955C00B3B1AF /* ZYJModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E0BF901D26955C00B3B1AF /* ZYJModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E0BF931D26955C00B3B1AF /* ZYJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E0BF911D26955C00B3B1AF /* ZYJModel.m */; };
 /* End PBXBuildFile section */
 
@@ -243,6 +243,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZYJSign/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alsfox.ZYJSign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +260,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZYJSign/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alsfox.ZYJSign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +287,7 @@
 				D9E0BF8D1D26951C00B3B1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

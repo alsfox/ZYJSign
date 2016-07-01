@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ZYJModel.h"
+
 //! Project version number for ZYJSign.
 FOUNDATION_EXPORT double ZYJSignVersionNumber;
 
